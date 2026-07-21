@@ -3,9 +3,10 @@ import pandas as pd
 import requests
 import json
 import plotly.express as px
+import os
 
 # Configuration
-API_URL = "http://localhost:8000"
+API_URL = os.getenv("API_URL", "http://localhost:8000")
 
 st.set_page_config(page_title="Review Intelligence", page_icon="🧠", layout="wide")
 
