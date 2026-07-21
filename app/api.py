@@ -8,7 +8,7 @@ from src.topic_analyzer import TopicAnalyzer, get_insights
 app = FastAPI(title="NLP Review Intelligence API", version="1.0.0")
 
 # Initialize models (mocked)
-analyzer = TopicAnalyzer(model_path="../models")
+analyzer = TopicAnalyzer(model_path="models")
 
 class ReviewRequest(BaseModel):
     texts: List[str]
