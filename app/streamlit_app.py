@@ -4,8 +4,15 @@ import requests
 import plotly.express as px
 import os
 
-# Configuration
-API_URL = os.getenv("API_URL", "http://localhost:8000")
+import sys
+
+# Add parent directory to path to import src
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+from src.topic_analyzer import TopicAnalyzer, get_insights
+
+@st.cache_resource
+def load_analyzer():
+    return TopicAnalyzer()
 
 # Setup Page
 st.set_page_config(page_title="Review Intelligence", page_icon="🧠", layout="wide", initial_sidebar_state="expanded")
@@ -86,9 +93,13 @@ if uploaded_file is not None:
                 texts = df['review_text'].dropna().tolist()
 
                 try:
-                    response = requests.post(f"{API_URL}/analyze", json={"texts": texts})
-                    response.raise_for_status()
-                    result = response.json()
+                    analyzer = load_analyzer()
+                    analysis_results = analyzer.analyze(texts)
+                    insights = get_insights(analysis_results)
+                    result = {
+                        "analysis": analysis_results,
+                        "insights": insights
+                    }
 
                     st.divider()
 
@@ -151,9 +162,8 @@ if uploaded_file is not None:
                             mime='text/csv',
                         )
 
-                except requests.exceptions.RequestException as e:
-                    st.error(f"Error connecting to backend API: {e}")
-                    st.warning(f"Attempted to reach: {API_URL}/analyze. Make sure the backend is deployed and running.")
+                except Exception as e:
+                    st.error(f"Error running NLP Analysis: {e}")
 
     except Exception as e:
         st.error(f"Error reading file: {e}")
