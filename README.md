@@ -212,7 +212,7 @@ streamlit run app/streamlit_app.py
 
 ## 🔗 Live Demo
 
-👉 **[Launch Review Intelligence Dashboard](https://nlp-review-minhaj.streamlit.app)**
+👉 **[Launch Review Intelligence Dashboard](https://nlp-frontend-v3.onrender.com)**
 
 ---
 
