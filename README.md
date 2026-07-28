@@ -1,5 +1,7 @@
 # 🧠 NLP Review Intelligence System
 
+[![Streamlit App](https://static.streamlit.io/badgebar/badge.svg)](https://nlp-review-intelligence-l4vsrtkyi828h8s2dyjxhr.streamlit.app/)
+
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-Transformers-yellow)
 ![DistilBERT](https://img.shields.io/badge/DistilBERT-Fine--tuned-orange)
@@ -212,7 +214,7 @@ streamlit run app/streamlit_app.py
 
 ## 🔗 Live Demo
 
-👉 **[Launch Review Intelligence Dashboard](https://nlp-frontend-v3.onrender.com)**
+👉 **[Launch Review Intelligence Dashboard](https://nlp-review-intelligence-l4vsrtkyi828h8s2dyjxhr.streamlit.app/)**
 
 ---
 
