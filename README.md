@@ -15,6 +15,20 @@
 
 ---
 
+## Architecture Flow
+
+```mermaid
+flowchart TD
+    Corpus["500,000 Amazon Customer Reviews"] --> Tokenizer["Hugging Face Tokenizer Pipeline"]
+    Tokenizer --> Sentiment["Fine-Tuned DistilBERT (91.4% Accuracy)"]
+    Tokenizer --> Topics["BERTopic Semantic Clustering"]
+    Sentiment --> Aggregator["Sentiment & Feature Correlation Engine"]
+    Topics --> Aggregator
+    Aggregator --> Streamlit["Streamlit Interactive Intelligence Dashboard"]
+```
+
+---
+
 ## The Real Business Problem
 
 Every e-commerce business receives thousands of customer reviews daily.
