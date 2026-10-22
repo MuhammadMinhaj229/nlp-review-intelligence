@@ -128,7 +128,7 @@ instead of spending 3 weeks manually reading reviews.
 
 ---
 
-## ️ Complete Tech Stack
+## Complete Tech Stack
 
 | Category | Tool | Purpose |
 |----------|------|---------|
@@ -146,24 +146,24 @@ instead of spending 3 weeks manually reading reviews.
 
 ## Project Structure
 nlp-review-intelligence/
-├── data/
-│   └── amazon_reviews.csv          # 500K Amazon product reviews
-├── notebooks/
-│   ├── 01_eda_text_analysis.ipynb  # Text EDA, length, distribution
-│   ├── 02_distilbert_finetune.ipynb # Fine-tune on 50K reviews
-│   ├── 03_bertopic_modeling.ipynb  # Topic discovery on 500K reviews
-│   └── 04_dashboard_prep.ipynb     # Prepare data for Streamlit
-├── app/
-│   └── streamlit_app.py            # Interactive review intelligence UI
-├── src/
-│   ├── init.py
-│   ├── text_preprocessor.py        # spaCy cleaning pipeline
-│   └── topic_analyzer.py           # BERTopic wrapper utilities
-├── models/
-│   ├── distilbert_sentiment/       # Fine-tuned model weights
-│   └── bertopic_model.pkl          # Saved topic model
-├── requirements.txt
-└── README.md
+ data/
+    amazon_reviews.csv          # 500K Amazon product reviews
+ notebooks/
+    01_eda_text_analysis.ipynb  # Text EDA, length, distribution
+    02_distilbert_finetune.ipynb # Fine-tune on 50K reviews
+    03_bertopic_modeling.ipynb  # Topic discovery on 500K reviews
+    04_dashboard_prep.ipynb     # Prepare data for Streamlit
+ app/
+    streamlit_app.py            # Interactive review intelligence UI
+ src/
+    init.py
+    text_preprocessor.py        # spaCy cleaning pipeline
+    topic_analyzer.py           # BERTopic wrapper utilities
+ models/
+    distilbert_sentiment/       # Fine-tuned model weights
+    bertopic_model.pkl          # Saved topic model
+ requirements.txt
+ README.md
 
 ---
 
