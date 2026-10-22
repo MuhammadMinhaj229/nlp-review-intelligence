@@ -1,4 +1,4 @@
-# 🧠 NLP Review Intelligence System
+# NLP Review Intelligence System
 
 [![Streamlit App](https://static.streamlit.io/badgebar/badge.svg)](https://nlp-review-intelligence-l4vsrtkyi828h8s2dyjxhr.streamlit.app/)
 
@@ -15,7 +15,7 @@
 
 ---
 
-## 🏢 The Real Business Problem
+## The Real Business Problem
 
 Every e-commerce business receives thousands of customer reviews daily.
 Amazon alone processes over 3.5 million reviews every day globally.
@@ -43,7 +43,7 @@ and respond to review trends.
 
 ---
 
-## 💡 The Solution This Project Builds
+## The Solution This Project Builds
 
 ### Part 1 — Sentiment Classification (DistilBERT)
 
@@ -101,7 +101,7 @@ instead of spending 3 weeks manually reading reviews.
 
 ---
 
-## 📊 Business Impact
+## Business Impact
 
 | Business Metric | Before | After |
 |-----------------|--------|-------|
@@ -114,7 +114,7 @@ instead of spending 3 weeks manually reading reviews.
 
 ---
 
-## 🌍 Industries Where This System Applies
+## Industries Where This System Applies
 
 | Industry | Use Case | Impact |
 |----------|----------|--------|
@@ -128,7 +128,7 @@ instead of spending 3 weeks manually reading reviews.
 
 ---
 
-## 🛠️ Complete Tech Stack
+## ️ Complete Tech Stack
 
 | Category | Tool | Purpose |
 |----------|------|---------|
@@ -144,7 +144,7 @@ instead of spending 3 weeks manually reading reviews.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 nlp-review-intelligence/
 ├── data/
 │   └── amazon_reviews.csv          # 500K Amazon product reviews
@@ -167,7 +167,7 @@ nlp-review-intelligence/
 
 ---
 
-## 🔑 Key Technical Decisions
+## Key Technical Decisions
 
 **Why DistilBERT over BERT?**
 DistilBERT is 40% smaller and 60% faster than BERT
@@ -187,7 +187,7 @@ have enough volume to form coherent clusters.
 
 ---
 
-## 🚀 How to Run Locally
+## How to Run Locally
 
 ```bash
 git clone https://github.com/MuhammadMinhaj229/nlp-review-intelligence.git
@@ -200,7 +200,7 @@ streamlit run app/streamlit_app.py
 
 ---
 
-## 📈 Key Findings Summary
+## Key Findings Summary
 
 - **91.4% sentiment accuracy** — DistilBERT outperforms TF-IDF baseline by 13.1%
 - **10 coherent topics** discovered from 500K reviews automatically
@@ -212,9 +212,9 @@ streamlit run app/streamlit_app.py
 
 ---
 
-## 🔗 Live Demo
+## Live Demo
 
-👉 **[Launch Review Intelligence Dashboard](https://nlp-review-intelligence-l4vsrtkyi828h8s2dyjxhr.streamlit.app/)**
+ **[Launch Review Intelligence Dashboard](https://nlp-review-intelligence-l4vsrtkyi828h8s2dyjxhr.streamlit.app/)**
 
 ---
 
