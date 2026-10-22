@@ -1,6 +1,21 @@
 review_id,product_category,review_text,rating
-1,Electronics,The battery life is amazing and lasts all day.,5
-2,Electronics,Terrible delivery experience box was damaged.,1
-3,Home,Good build quality but a bit expensive.,3
-4,Electronics,Sound is clear but the bass is lacking.,4
-5,Home,Broke after 2 weeks of use, do not buy.,1
+1,Electronics,"The battery life is exceptional and easily lasts two full days on a single charge.",5
+2,Electronics,"Terrible delivery experience. The exterior box was crushed and the charging cable was missing.",1
+3,Home & Kitchen,"Good build quality and stainless finish, but the retail price is noticeably higher than competing alternatives.",3
+4,Electronics,"Acoustics are crisp for podcasts, but the bass response is lacking depth for orchestral music.",4
+5,Home & Kitchen,"Heating coil broke after two weeks of regular use. Attempting warranty return now.",1
+6,Software,"The user interface is intuitive, but the latest release crashes whenever exporting large tabular datasets.",2
+7,Electronics,"Customer support resolved my firmware issue within twenty minutes via chat. Outstanding turnaround.",5
+8,Logistics,"Package arrived three days past the promised delivery window without tracking updates.",2
+9,Electronics,"Ergonomic design and seamless Bluetooth pairing across laptop and mobile devices.",5
+10,Software,"Billing charged my corporate card twice for the monthly seat renewal. Customer support has not responded.",1
+11,Home & Kitchen,"Solid construction, easy to disassemble for cleaning, and operates very quietly.",5
+12,Electronics,"Screen glare is severe in bright sunlight, making outdoor usage frustrating.",2
+13,Software,"Superb documentation and fast API response times. Saved our engineering team weeks of implementation.",5
+14,Logistics,"Delivered ahead of schedule in reinforced packaging. Item arrived in pristine condition.",5
+15,Electronics,"Microphone quality is muffled during video conference calls. Several colleagues complained about audio clarity.",2
+16,Home & Kitchen,"Customer service refused to honor the standard one-year warranty claiming normal wear and tear.",1
+17,Software,"Essential productivity tool. The automated synchronization between desktop and mobile is flawless.",5
+18,Electronics,"Thermal management is poor. The underside becomes uncomfortably hot after thirty minutes of streaming.",2
+19,Logistics,"Carrier left the parcel on the street curb in heavy rain instead of the covered porch.",1
+20,Home & Kitchen,"Reasonable performance for the discounted price point, though plastic latches feel slightly fragile.",3
